@@ -40,4 +40,31 @@ That means: select the level n.1 and the user n.1 (that has sessionkey = OOUYHDF
 Once this is done, the second step is to insert an integer value in the specific space that will appear after the previous step is made.
 This required a basic .html file that is found in the _templates_ folder.
 
-When this process is done, let's say, for all the 20 users that have been selected, you will have a file named _levelID_ <levelIDint> _summary.txt_
+When this process is done, let's say, for all the 20 users that have been selected, you will have a file named _levelID1summary.txt_
+...(Obviously, if the level_id is 2 you will have _levelID2summary.txt_)...
+It will look like this:
+
+
+```
+OOUYHDF,80/GGAZGQW,10/VVBXTCE,121/RRXMFJP,1000/WWWZMME,0/WWWZMME,1/RRNKFFH,4/NNZLOEA,88/FFYXOOU,97/GGYDDII,882/GGXDWOP,41/BBSAZNU,1900/JJACNGJ,1988/UUIWPZI,100/RRAKLPC,41/LLXHTFF,80000/WWQSDOT,7/VVZWUMV,5000/XXLJDQZ,16/UUPGZYY,20/SSNGRPL,48/
+```
+***
+__NOTE: For example WWWZMME appears two times, but in the highscorelist it will appears only once, with its higher score.__
+***
+
+## Highscoreplotting:
+
+Finally, by using the following input:
+
+```
+http://localhost:8080/level_id=1/highscorelist
+```
+
+You will have this output:
+
+```
+{"sessionkey": ["XXLJDQZ", "UUPGZYY", "GGXDWOP", "RRAKLPC", "SSNGRPL", "OOUYHDF", "NNZLOEA", "FFYXOOU", "UUIWPZI", "VVBXTCE", "GGYDDII", "RRXMFJP", "BBSAZNU", "JJACNGJ", "VVZWUMV"], "scores": [16, 20, 41, 41, 48, 80, 88, 97, 100, 121, 882, 1000, 1900, 1988, 5000]}
+```
+
+
+

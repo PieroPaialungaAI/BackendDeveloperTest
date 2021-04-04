@@ -7,7 +7,7 @@ I've launched app.py by using the terminal in a folder containing __templates__ 
 python app.py
 ```
 
-## Login:
+## Login:
 
 To perform a login of the _user_id_, it is required to label the user with an integer number. By using this number and the login path, a unique 6 digit string, that is its relative sessionkey will be given. 
 
@@ -22,7 +22,7 @@ Output (displayed on the screen and stored on user_id.txt):
 {"user": "OOUYHDF"}
 ```
 
-## Score setting:
+## Score setting:
 
 The login session will create a dictionary on  user_id.txt that will look like this:
 ```
@@ -35,9 +35,9 @@ The first one is to use, for example:
 ```
 http://localhost:8080/level_id=1/sessionkey=OOUYHDF
 ```
-That means: select the first level and the user n.1 (that has sessionkey = OOUYHDF).
+That means: select the level n.1 and the user n.1 (that has sessionkey = OOUYHDF).
 
 Once this is done, the second step is to insert an integer value in the specific space that will appear after the previous step is made.
+This required a basic .html file that is found in the _templates_ folder.
 
-
-
+When this process is done, let's say, for all the 20 users that have been selected, you will have a file named _levelID_ <levelIDint> _summary.txt_

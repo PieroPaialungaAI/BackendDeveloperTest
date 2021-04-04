@@ -52,7 +52,7 @@ OOUYHDF,80/GGAZGQW,10/VVBXTCE,121/RRXMFJP,1000/WWWZMME,0/WWWZMME,1/RRNKFFH,4/NNZ
 __NOTE: For example WWWZMME appears two times, but in the highscorelist it will appears only once, with its higher score.__
 ***
 
-## Highscoreplotting:
+## Highscorelist:
 
 Finally, by using the following input:
 

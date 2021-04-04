@@ -66,5 +66,6 @@ You will have this output:
 {"sessionkey": ["XXLJDQZ", "UUPGZYY", "GGXDWOP", "RRAKLPC", "SSNGRPL", "OOUYHDF", "NNZLOEA", "FFYXOOU", "UUIWPZI", "VVBXTCE", "GGYDDII", "RRXMFJP", "BBSAZNU", "JJACNGJ", "VVZWUMV"], "scores": [16, 20, 41, 41, 48, 80, 88, 97, 100, 121, 882, 1000, 1900, 1988, 5000]}
 ```
 
-
-
+***
+__NOTE: _templates_ is required to work, while _user_id.txt_ and _levelID1summary.txt_ are example output files that I've gotten by using the script.__ 
+***

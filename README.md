@@ -67,5 +67,5 @@ You will have this output:
 ```
 
 ***
-__NOTE: _templates_ is required to work, while _user_id.txt_ and _levelID1summary.txt_ are example output files that I've gotten by using the script.__ 
+__NOTE: _templates_ is required to work, while _user_id.txt_ and _levelID1summary.txt_ are example output files that I've gotten by using the script. No external frameworks (e.g. numpy,pandas,...,) have been used.__ 
 ***
